@@ -23,7 +23,7 @@ int main()
 		//a posição do vetor recebe o numero randômico que vai de 10 a 100. 
 		//10 é o piso, a abrangência de valores é 90 (100 - 10, ou seja, max - min) e o +1 é porque as extremidades entram
 		//fórmula do rand: min + rand() % (max-min) +1
-        vet[i] = 10 + rand()% 90 +1;
+        vet[i] = 10 + rand() %89 +1;
         printf("%d ", vet[i]);
     }
     return 0;
