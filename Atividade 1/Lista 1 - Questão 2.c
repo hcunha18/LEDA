@@ -51,7 +51,7 @@ int main()
 	
 	//Preechendo com numeros aleatórios de 1 a 100
 	for(i=0; i<tam; i++){
-        vet[i] = rand()% 100;
+        vet[i] = rand() %99 + 1;
     }
 	
 	//Imprimindo o vetor antes da impressão
